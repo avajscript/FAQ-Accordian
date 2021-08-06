@@ -76,7 +76,11 @@ li > p:nth-of-type(2) {
 li img {
   float: right;
   padding-top: 20px;
-  transform: scale(-1, 1);
+}
+
+.rotateIcon {
+  transform: rotate(180deg);
+  margin-top: 20px;
 }
 
 .hideDisplay {
